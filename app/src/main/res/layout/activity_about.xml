@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eceff1"
+    tools:context=".AboutActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:cardBackgroundColor="@color/colorPrimaryDark">
+
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/html"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    tools:typeface="monospace" />
+            </android.support.v7.widget.CardView>
+
+            <ScrollView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Third-Party libraries used:"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:layout_marginTop="5dp"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="RichTextEditor \nhttps://github.com/huzhenjie/RichTextEditor"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:layout_marginTop="5dp"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="CodeView-Android\nhttps://github.com/kbiakov/CodeView-Android"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:linksClickable="true"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="EZDialog\nhttps://github.com/Binary-Finery/EZDialog"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <TextView
+                        android:textSize="17sp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Developer"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="email"
+                        android:clickable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="Email:\numairayub79@gmail.com"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="Facebook:\nhttps://www.facebook.com/umairayub28"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:autoLink="web"
+                        android:clickable="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:linksClickable="true"
+                        android:textColorLink="@android:color/holo_blue_dark"
+                        android:text="Twitter:\nhttps://twitter.com/umairayub79"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

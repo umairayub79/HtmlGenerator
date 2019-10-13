@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Html Generator</string>
+    <string name="html">&lt;/Html&gt; Generator</string>
+</resources>
